@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- @BeforeSuite -->
+<suite name="tester">
+
+    <!-- @BeforeTest -->
+    <test name="case1">
+        <classes>
+            <class name="com.ryan.TestConfig" />
+            <class name="TestHelloWorld" />
+        </classes>
+    </test>
+    <!-- @AfterTest -->
+
+    <!-- @BeforeTest -->
+    <test name="case2">
+        <classes>
+            <class name="com.ryan.TestConfig" />
+        </classes>
+    </test>
+    <!-- @AfterTest -->
+
+</suite>
+        <!-- @AfterSuite -->

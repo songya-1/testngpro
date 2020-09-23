@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="parameterTester">
+    <test name="case1">
+        <parameter name="param"  value="param的值"/>
+        <parameter name="param2"  value="param2的值"/>
+        <classes>
+            <class name="com.ryan.TestParameter" />
+        </classes>
+    </test>
+</suite>
